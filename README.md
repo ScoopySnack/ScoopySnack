@@ -5,7 +5,7 @@ Currently diving deep into Python, Java, and all things web development (HTML/CS
 
 🌱 Currently exploring: JavaScript and how to make cool things with AI.
 
-💬 Always open to new ideas, collaborations, and fun coding challenges! Let's connect!
+💬 Always open to new ideas, collaborations, and fun coding challenges! 
 
 <!---
 ScoopySnack/ScoopySnack is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
