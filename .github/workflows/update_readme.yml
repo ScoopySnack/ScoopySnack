@@ -26,6 +26,8 @@ jobs:
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
+          git remote set-url origin https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/ScoopySnack/ScoopySnack.git
           git add README.md
           git commit -m "Update most active day" || echo "No changes to commit"
           git push
+      
