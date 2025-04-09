@@ -17,12 +17,16 @@ jobs:
           python-version: '3.x'
 
       - name: Install dependencies
-        run: pip install requests
+        run: |
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; else pip install requests; fi
 
       - name: Run the script
         run: python most_active_day.py
 
-        
+      - name: Check if README.md exists
+        run: |
+          if [ ! -f README.md ]; then echo "README.md not found"; exit 1; fi
+
       - name: Commit changes
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
