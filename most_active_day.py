@@ -24,19 +24,7 @@ if events:
 else:
     most_active_day = "No public activity yet."
 
-with open("README.md", "r", encoding="utf-8") as f:
-    readme = f.read()
-
-start_tag = "<!-- ACTIVITY-DAY-START -->"
-end_tag = "<!-- ACTIVITY-DAY-END -->"
-new_line = f"{start_tag}\n**Most Active Day:** _{most_active_day}_ 🌟\n{end_tag}"
-
-updated_readme = re.sub(
-    f"{start_tag}.*?{end_tag}",
-    new_line,
-    readme,
-    flags=re.DOTALL
-)
-
-with open("README.md", "w", encoding="utf-8") as f:
-    f.write(updated_readme)
+with open("README.md", "w") as f:
+    f.write(f"<!-- ACTIVITY-DAY-START -->\n")
+    f.write(f"**Most Active Day:** _{most_active_day}_ 🌟\n")
+    f.write(f"<!-- ACTIVITY-DAY-END -->\n")
