@@ -12,7 +12,7 @@ I'm an aspiring developer with a curious mind and a passion for Artificial Intel
 ![](https://github-readme-streak-stats.herokuapp.com/?user=ScoopySnack&theme=city_lights&hide_border=false)<br/>
 
 <!-- ACTIVITY-DAY-START -->
-Loading...
+**Most Active Day:** _Saturday_ 🌟
 <!-- ACTIVITY-DAY-END -->
 
 
