@@ -2,7 +2,7 @@ name: Update Most Active Day
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # runs daily at midnight UTC
+    - cron: '0 0 * * *'
   workflow_dispatch:
 
 jobs:
@@ -16,16 +16,16 @@ jobs:
         with:
           python-version: '3.x'
 
-      - name: Install requests
+      - name: Install dependencies
         run: pip install requests
 
-      - name: Run script
+      - name: Run the script
         run: python most_active_day.py
 
       - name: Commit changes
         run: |
-          git config --global user.name 'github-actions'
-          git config --global user.email 'github-actions@github.com'
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
           git add README.md
           git commit -m "Update most active day" || echo "No changes to commit"
           git push
