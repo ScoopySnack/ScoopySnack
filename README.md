@@ -1,6 +1,3 @@
-<!-- ACTIVITY-DAY-START -->
-**Most Active Day:** _Saturday_ 🌟
-<!-- ACTIVITY-DAY-END -->
 # 💫 About Me:
 I'm an aspiring developer with a curious mind and a passion for Artificial Intelligence! <br>Currently diving deep into Python, Java, and all things web development (HTML/CSS). <br>When I'm not coding, I'm learning about AI, software testing, or figuring out how to make <br>my code even cleaner. 😎<br><br>🌱 Currently exploring: JavaScript and how to make cool things with AI.<br><br>💬 Always open to new ideas, collaborations, and fun coding challenges!
 
