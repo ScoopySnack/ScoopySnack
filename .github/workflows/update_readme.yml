@@ -29,9 +29,9 @@ jobs:
           git config --global user.name 'github-actions'
           git config --global user.email 'github-actions@github.com'
           git remote set-url origin https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/${{ github.repository }}
-          git stash          # Stash any unstaged changes
+          git stash  # Stash any local changes
           git pull --rebase  # Pull the latest changes from the remote branch
-          git stash pop || echo "No stash to apply"  # Reapply stashed changes, if any
+          git stash pop  # Reapply stashed changes
           git add README.md
           git commit -m "Update most active day" || echo "No changes to commit"
           git push
