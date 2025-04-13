@@ -11,6 +11,11 @@ I'm an aspiring developer with a curious mind and a passion for Artificial Intel
 ![](https://github-readme-stats.vercel.app/api?username=ScoopySnack&theme=city_lights&hide_border=false&include_all_commits=true&count_private=true)  ![](https://github-readme-stats.vercel.app/api/top-langs/?username=ScoopySnack&theme=city_lights&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
 ![](https://github-readme-streak-stats.herokuapp.com/?user=ScoopySnack&theme=city_lights&hide_border=false)<br/>
 
+<!-- ACTIVITY-DAY-START -->
+**Most Active Day:** _Saturday_ 🌟
+<!-- ACTIVITY-DAY-END -->
+
+
 
 ## 🏆 GitHub Trophies
 ![](https://github-profile-trophy.vercel.app/?username=ScoopySnack&theme=tokyonight&no-frame=false&no-bg=true&margin-w=4)
