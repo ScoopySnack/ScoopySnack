@@ -15,6 +15,10 @@ I'm an aspiring developer with a curious mind and a passion for Artificial Intel
 ## 🏆 GitHub Trophies
 ![](https://github-profile-trophy.vercel.app/?username=ScoopySnack&theme=tokyonight&no-frame=false&no-bg=true&margin-w=4)
 
+
 ### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=vetical&theme=tokyonight)
+<p align="center">
+  <img src="https://quotes-github-readme.vercel.app/api?type=vetical&theme=tokyonight" alt="Random Dev Quote" />
+</p>
+
 
